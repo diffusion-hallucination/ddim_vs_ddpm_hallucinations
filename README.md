@@ -21,7 +21,7 @@
   <a href="https://www.alphaxiv.org/abs/2605.06831">
     <img src="https://img.shields.io/badge/alphaXiv-2605.06831-ff6b6b.svg" alt="alphaXiv">
   </a>
-  <a href="https://github.com/diffusion-hallucination.com">
+  <a href="https://diffusion-hallucination.github.io">
     <img src="https://img.shields.io/badge/Website-diffusion--hallucination.com-2ea44f.svg" alt="Website">
   </a>
 </p>
