@@ -1,0 +1,70 @@
+defaults:
+  - _self_
+
+timesteps: 1000
+ddim_timesteps: 50
+beta_schedule: "linear"
+beta_start: 0.0001
+beta_end: 0.02
+model_mean_type: "eps"
+loss_type: "mse"
+model_var_type: "fixed"
+sampling_mode: "ddim"
+skip_type: "quad"
+kappa_target: 7.0
+
+num_samples: 100_000
+
+invalid_sigma_multiple: 5.0
+hall_radius_sigma_multiple: 5.0
+expected_hidden_dim: null
+expected_time_dim: null
+expected_dataset_kind: null
+artifact_run_name: null
+gaussian_protocol_tag: null
+sample_classification_mode: "sigma_geometry"
+sample_classification_scale_by_sqrt_varpi: False
+sample_classification_shell_offset: 4.0
+sample_classification_shell_dimension_threshold: 10
+tau2_variance_scale_mode: "auto"
+exact_score_geometry_source: "checkpoint_or_dataset"
+exact_score_noise_std: 0.0
+exact_score_noise_seed: 42
+exact_score_noise_stds: null
+ddim_eta: 0.0
+ddim_eta_values: null
+ddpm_baseline_run_name: null
+ddpm_baseline_expected_hidden_dim: null
+ddpm_baseline_expected_time_dim: null
+ddpm_baseline_expected_dataset_kind: null
+exp_e_tau_vals: null
+exp_e_tau_internal_vals_ddim: null
+exp_e_tau_internal_vals_ddpm: null
+exp_e_overlay_tau_targets: null
+exp_e_include_mixed_z: True
+r_percentage: [5, 15, 25, 35, 45, 50]
+exp_i_tau3_target: 11
+exp_i_theta_fraction: 0.35
+tau3_theta_fraction: null
+tau3_internal_raw_ddpm_steps: null
+tau3_target: 9
+tau3_closed_form_num_a_per_side: 50
+tau3_empirical_num_a_per_side: 50
+tau3_empirical_num_rollouts: 10000
+tau3_empirical_seed: 42
+chunk_size: 4096
+save_per_sample_artifacts: True
+use_exact_score: False
+sampling_seed: 0
+
+exp_name: "exp_a_two_mode_assumption"
+
+results_dir: "eval_results"
+img_size: 64 
+image_seed: 0 # used for DDPM
+
+ckpt_name: "final_model.pth"
+run_name: "gaussian25_h64_t64_sigma5"
+
+device: "cpu"
+remote_exec: False

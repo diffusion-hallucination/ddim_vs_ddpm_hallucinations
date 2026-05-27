@@ -1,0 +1,13 @@
+name: "gaussian5d"         
+stdev: 0.02
+scale: 2
+num_samples: 100_000
+num_test_samples: 100_000
+vis_trajectory: True
+num_dims: 2
+# null => auto-enable epoch-wise resampling when num_dims >= 4
+resample_each_epoch: null
+fps_seed: 42
+normalization_mode: "fixed_2sqrtd"
+min_normalized_pair_distance_floor: 0.7
+save_folder: "./results"

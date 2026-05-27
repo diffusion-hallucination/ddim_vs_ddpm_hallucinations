@@ -1,0 +1,15 @@
+{
+  "triangle_distribution": [
+    0,
+    0,
+    10000,
+    0
+  ],
+  "triangle_counts": {
+    "1_triangles": 0,
+    "2_triangles": 0,
+    "3_triangles": 10000,
+    "4_triangles": 0
+  },
+  "total_images": 10000
+}

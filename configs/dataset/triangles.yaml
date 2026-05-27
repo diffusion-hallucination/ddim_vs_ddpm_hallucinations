@@ -1,0 +1,7 @@
+name: "triangle_only"
+img_size: 64
+num_samples: 10000
+num_test_samples: 1000
+channels: 1
+save_folder: "results/"
+data_dir: "datasets/triangle_only"

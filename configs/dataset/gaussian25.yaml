@@ -1,0 +1,11 @@
+name: "gaussian25"
+kind: "gaussian_mixture_2d"
+base_layout: "grid25"
+mode_spacing: 2.0
+global_sigma: 0.02
+stdev: 0.02
+num_samples: 100_000
+num_test_samples: 100_000
+vis_trajectory: true
+num_dims: 2
+save_folder: "./results"

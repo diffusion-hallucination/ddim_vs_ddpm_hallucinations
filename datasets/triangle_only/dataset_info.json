@@ -1,0 +1,18 @@
+{
+  "num_samples": 10000,
+  "image_size": [
+    64,
+    64
+  ],
+  "shape_size": 8,
+  "pixel_values": {
+    "background": 0,
+    "triangles": 255
+  },
+  "label_format": "number_of_triangles (1-4)",
+  "triangle_range": [
+    1,
+    4
+  ],
+  "total_classes": 4
+}
