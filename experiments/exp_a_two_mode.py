@@ -1,6 +1,5 @@
 '''
-This script contains the experimental utils for running training. 
-The two mode dominance aspect of this is basically, 
+This script contains the experimental utils for running training.  
 '''
 
 import numpy as np
